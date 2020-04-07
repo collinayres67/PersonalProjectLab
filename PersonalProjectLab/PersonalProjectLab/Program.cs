@@ -6,7 +6,21 @@ namespace PersonalProjectLab
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int calcIndicator;
+            string input;
+
+            Console.WriteLine("Enter 1 for arrow drop or 3 for arrow speed");
+            input = Console.ReadLine();
+            calcIndicator = int.Parse(input);
+
+            if (calcIndicator>2)
+            {
+                
+            }
+            
+
+            
+
         }
     }
 }
